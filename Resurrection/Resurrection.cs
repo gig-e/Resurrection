@@ -14,7 +14,7 @@ using LocalizationManager;
 namespace Resurrection;
 
 [BepInPlugin(ModGUID, ModName, ModVersion)]
-[BepInIncompatibility("org.bepinex.plugins.valheim_plus")]
+//[BepInIncompatibility("org.bepinex.plugins.valheim_plus")]
 [BepInDependency("org.bepinex.plugins.groups", BepInDependency.DependencyFlags.SoftDependency)]
 [BepInDependency("aedenthorn.InstantMonsterDrop", BepInDependency.DependencyFlags.SoftDependency)]
 public class Resurrection : BaseUnityPlugin
